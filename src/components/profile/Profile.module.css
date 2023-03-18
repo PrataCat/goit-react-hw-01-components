@@ -1,9 +1,3 @@
-:root {
-  --primary-color: #8f9ba8;
-  --secondary-color: #e7ecf2;
-  --primaru-text-color: #122236;
-  --secondary-bg-color: #f3f6f9;
-}
 .profile {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,48 @@
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 460px;
+  margin: 0 auto;
+  padding: 40px 60px 80px 60px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 8px 20px;
+
+  background-color: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06), 0px 1px 4px rgba(0, 0, 0, 0.12),
+    1px 1px 1px rgba(0, 0, 0, 0.06);
+}
+
+.status {
+  display: block;
+  width: 16px;
+  height: 16px;
+
+  background-color: cadetblue;
+  border-radius: 50%;
+}
+
+.true {
+  background-color: #55ab57;
+}
+
+.false {
+  background-color: #ff5052;
+}
+
+.avatar {
+  border-radius: 4px;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--primaru-text-color);
+}
