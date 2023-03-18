@@ -3,10 +3,7 @@ import TransactionCss from './TransactionHistory.module.css';
 
 export default function TransactionItem({ id, type, amount, currency }) {
   return (
-    <tr
-      key={id}
-      className={`${TransactionCss['tr']} ${TransactionCss['tr-border']}`}
-    >
+    <tr key={id} className={TransactionCss['tr']}>
       <td className={TransactionCss['item-text']}>{type}</td>
       <td className={TransactionCss['item-text']}>{amount}</td>
       <td className={TransactionCss['item-text']}>{currency}</td>

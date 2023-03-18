@@ -6,7 +6,7 @@ export default function TransactionHistory({ items }) {
   return (
     <table className={TransactionCss['transaction-history']}>
       <thead className={TransactionCss['thead']}>
-        <tr className={TransactionCss['tr']}>
+        <tr>
           <th className={TransactionCss['table-title']}>Type</th>
           <th className={TransactionCss['table-title']}>Amount</th>
           <th className={TransactionCss['table-title']}>Currency</th>

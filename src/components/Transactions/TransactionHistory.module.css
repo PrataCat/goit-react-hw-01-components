@@ -13,8 +13,12 @@
   background-color: var(--transaction-head);
 }
 
-.tr {
-  border-radius: 4px;
+.tr:last-child > .item-text:first-child {
+  border-radius: 0 0 0 4px;
+}
+
+.tr:last-child > .item-text:last-child {
+  border-radius: 0 0 4px 0;
 }
 
 .tr:nth-child(2n + 2) {
@@ -27,7 +31,15 @@
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: var(--secondary-bg-color);
+}
+
+.table-title:first-child {
+  border-radius: 4px 0 0 0;
+}
+
+.table-title:last-child {
+  border-radius: 0 4px 0 0;
 }
 
 .table-title:not(:last-child),
