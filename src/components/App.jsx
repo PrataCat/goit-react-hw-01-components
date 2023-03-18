@@ -1,4 +1,4 @@
-import Profile from './Profile/Profile';
+import Profile from './profile/Profile';
 import user from '../patch/user.json';
 import Statistics from './Statistics/Statistics';
 import data from '../patch/data.json';

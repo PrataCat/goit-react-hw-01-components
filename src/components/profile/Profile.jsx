@@ -8,13 +8,6 @@ export default function Profile({
   avatar,
   stats: { followers, views, likes },
 }) {
-  // const {
-  //   username,
-  //   tag,
-  //   location,
-  //   avatar,
-  //   stats: { followers, views, likes },
-  // } = props;
   return (
     <div className={ProfileCss['profile']}>
       <div className={ProfileCss['description']}>
