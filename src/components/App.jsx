@@ -2,9 +2,9 @@ import Profile from './profile/Profile';
 import user from '../patch/user.json';
 import Statistics from './statistics/Statistics';
 import data from '../patch/data.json';
-import FriendList from './FriendList/FriendList';
+import FriendList from './friends/FriendList';
 import friends from '../patch/friends.json';
-import TransactionHistory from './Transactions/TransactionHistory';
+import TransactionHistory from './transactionhistory/TransactionHistory';
 import items from '../patch/transactions.json';
 
 export const App = () => {
